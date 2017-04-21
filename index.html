@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图片裁剪</title>
+    <link rel="stylesheet" href="index.css">
+    <script src='jquery1.min.js'></script>
+    <script src='jquery-ui-1.10.4.custom.min.js'></script>
+</head>
+<body>
+    
+  <div id='box'>
+     <!--第一层：透明图片-->
+     <img src="1.jpg" alt="" id="img1">
+     <!--第二层：部分显示-->
+     <img src="1.jpg" alt="" id="img2">
+     <!--第三层：选取框-->
+     <div id='main'>
+         <div class="min left-up"></div>
+         <div class="min up"></div>
+         <div class="min right-up"></div>
+         <div class="min left-mid"></div>
+         <div class="min right-mid"></div>
+         <div class="min left-down"></div>
+         <div class="min down"></div>
+         <div class="min right-down"></div>
+     </div>
+  </div>
+  <!--预览-->
+  <div id="preview">
+         <img src="1.jpg" alt="" id='img3'>
+  </div>
+    
+  <script src='index.js'></script>  
+
+</body>
+</html>
